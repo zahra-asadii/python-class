@@ -17,13 +17,13 @@ class Database:
         self.cur.execute('INSERT INTO contacts VALUES (null,?,?,?,?)',( fname , lname , email , password))
         self.con.commit()
     
-    def search (self,fname):
-        self.cur.execute ('''SELECT * FROM contacts WHERE id = ? or fname=? or lname=? or email=? or password=?'''
-                            ,(fname,fname,fname,fname,fname))
+    def search (self,email ,password):
+        self.cur.execute ('''SELECT * FROM contacts WHERE email=? AND password=?'''
+                            ,(email,password))
         recs = self.cur.fetchall()
         return recs
         
-# db=Database('c:/project/data.db')
+# db=Database('d:/lesson/project/data.db')
 # db.con.close()
                       
         
