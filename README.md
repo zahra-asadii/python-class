@@ -32,7 +32,7 @@ A simple Login and Registration application developed using Python.
 
 This project uses SQLite to store user information.
 
-## Important Note
+## ⚠ Important Note
 
 Before running the program, please check the database path in the following line of code:
 
