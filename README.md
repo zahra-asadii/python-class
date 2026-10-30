@@ -1,34 +1,31 @@
 # python-class
 
-## Python Login & Registration System
+## 🔴 Python Login & Registration System
 
 A simple Login and Registration application developed using Python.
 
-### Technologies Used
+### 🛠 Technologies Used
 
 * Python
 * Tkinter (GUI)
 * SQLite3 (Database)
 
-### Features
+### ✨ Features
 
 * User Registration
 * User Login
 * Password Verification
 * Database Management
 
-### Requirements
 
-* Python 3.x
-
-### How to Run
+### 🕹 How to Run
 
 1. Download or clone the repository.
 2. Make sure Python is installed.
 3. Configure the database path if necessary.
 4. Run ui.py.
 
-### Database
+### 📌 Database
 
 This project uses SQLite to store user information.
 
